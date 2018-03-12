@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_third"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dream.xukuan.xks3.ThirdActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/third_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <RadioGroup
+        android:id="@+id/third_radio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:tag="0"
+            android:id="@+id/btn_msg"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:text="微信"
+            android:textColor="@color/text_check_color_selector"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:checked="true"
+            android:drawableTop="@drawable/message_selector"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:tag="1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:text="通讯录"
+            android:id="@+id/btn_contact"
+            android:textColor="@color/text_check_color_selector"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:drawableTop="@drawable/contact_selector"
+            android:layout_height="wrap_content"  />
+        <RadioButton
+            android:tag="2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:text="发现"
+            android:id="@+id/btn_find"
+            android:textColor="@color/text_check_color_selector"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:drawableTop="@drawable/find_selector"
+            android:layout_height="wrap_content"  />
+        <RadioButton
+            android:tag="3"
+            android:id="@+id/btn_me"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:text="我"
+            android:textColor="@color/text_check_color_selector"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:drawableTop="@drawable/me_selector"
+            android:layout_height="wrap_content"  />
+    </RadioGroup>
+
+</LinearLayout>
