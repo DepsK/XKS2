@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_fourth"
+    android:id="@+id/activity_hw"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.dream.xukuan.xk2stu2.FourthActivity">
+    tools:context="com.dream.xukuan.xk2stu2.HWActivity">
 
     <android.support.design.widget.TabLayout
-        android:id="@+id/fourth_design"
+        android:id="@+id/hw_jingxuan_tabLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="70dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ccc" />
 
     <android.support.v4.view.ViewPager
-        android:id="@+id/fourth_viewpager"
+        android:id="@+id/hw_jingxuan_viewPager"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="0dp"
+        android:layout_weight="1" />
 
 </LinearLayout>
