@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="搜索"
+        app:showAsAction="ifRoom"
+        android:id="@+id/first_search_item"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+    <item
+        android:id="@+id/first_item_pay"
+        android:icon="@mipmap/menu2"
+        android:title="付款"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/first_item_sao"
+        android:icon="@mipmap/menu3"
+        android:title="扫一扫"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/first_item_add"
+        android:icon="@mipmap/menu4"
+        android:title="添加"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/first_item_msg"
+        android:icon="@mipmap/menu5"
+        android:title="消息"
+        app:showAsAction="ifRoom"/>
+</menu>
