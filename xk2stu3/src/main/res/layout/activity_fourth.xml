@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_fourth"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foreground="@mipmap/ic_launcher"
+    android:foregroundGravity="center"
+    tools:context="com.dream.xukuan.xk2stu3.FourthActivity">
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:background="#f00"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:background="#0f0"/>
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="#00f"/>
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:background="#f0f"/>
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="#ff0"/>
+</FrameLayout>
