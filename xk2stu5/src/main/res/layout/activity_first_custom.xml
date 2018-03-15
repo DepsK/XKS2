@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_first"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="horizontal"
+    android:background="#3f00"
+    tools:context="com.dream.xukuan.xk2stu5.FirstActivity">
+
+    <ImageView
+        android:id="@+id/first_custom_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/first_custom_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:text="标题"
+            />
+        <ProgressBar
+            android:id="@+id/first_custom_progerssbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+        <TextView
+            android:textSize="11sp"
+            android:textColor="#fff"
+            android:id="@+id/first_custom_content_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="内容"/>
+    </LinearLayout>
+
+</LinearLayout>
