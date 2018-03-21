@@ -32,5 +32,12 @@
         android:onClick="click"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/fourth"
+        android:text="跳转到第四个"
+        android:textSize="20dp"
+        android:onClick="click"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>

@@ -33,6 +33,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
             break;
+            case R.id.fourth:{
+                Intent intent = new Intent(context,FourthActivity.class);
+                startActivity(intent);
+            }
+            break;
             default:
         }
     }
