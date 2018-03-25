@@ -9,5 +9,9 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.dream.xukuan.xk2stu8.FourthActivity">
-
+    <EditText
+        android:gravity="top"
+        android:background="@drawable/xx"
+        android:layout_width="120dp"
+        android:layout_height="800dp"/>
 </RelativeLayout>
