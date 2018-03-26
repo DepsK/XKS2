@@ -44,6 +44,7 @@
         <activity android:name=".POISearchActivity" />
         <activity android:name=".RoutePlanActivity" />
         <activity android:name=".LocationActivity"></activity>
+        <service android:name="com.baidu.location.f" android:enabled="true" android:process=":remote"/>
     </application>
 
 </manifest>
